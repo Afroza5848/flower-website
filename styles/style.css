@@ -7,7 +7,7 @@ body{
     font-family: 'Lato', sans-serif;
 }
 /* header style */
-header{
+header, #hot-deal{
     background: rgba(229, 84, 115, 0.10);
 
 }
@@ -40,6 +40,7 @@ header{
     padding: 20px 43px;
     border: none;
     transition: 2s;
+    text-align: center;
 }
 .btn-primary:hover{
     background: #fff;
@@ -153,4 +154,47 @@ header .container .banner-img img{
     font-style: normal;
     font-weight: 600;
     line-height: 35px; 
+}
+
+/* hot deal */
+#hot-deal{
+    padding: 100px 0;
+}
+#hot-deal .hot-deal-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#hot-deal .hot-deal-container .hot-deal-text{
+    width: 594px;
+}
+/* #hot-deal .hot-deal-container .hot-deal-text button{
+    margin: auto;
+} */
+#hot-deal .hot-deal-container .hot-deal-text *{
+    text-align: center;
+    margin-bottom: 32px;
+}
+#hot-deal .hot-deal-container .hot-deal-text h2{
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+#hot-deal .hot-deal-container .hot-deal-text p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+#hot-deal .hot-deal-container .hot-deal-text .important{
+    color: #E55473;
+}
+#hot-deal .hot-deal-container .hot-deal-img{
+    width: 318px;
+}
+#hot-deal .hot-deal-container .hot-deal-img img{
+    width: 100%;
 }
